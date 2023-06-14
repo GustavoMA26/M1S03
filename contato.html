@@ -24,37 +24,48 @@
         </nav>        
     </header>
     <main>
-        <section>
-            <form>
-                <label for="fname">Nome:</label><br>
-                    <input type="text" id="fname" name="fname"><br>
-                <label for="phone">Telefone:</label><br>
-                    <input type="tel" id="phone" name="phone" required><br>
-                <label for="email">E-mail:</label><br>
-                    <input type="email" id="email" name="email" required><br>
-                    <legend>Selecione o assunto da sua mensagem:</legend>
-                        <div>
-                            <input type="radio" id="manipulacao" name="manipulacao">
-                            <label for="manipulacao">Manipulação</label>
-                        </div>
-                        <div>
-                            <input type="radio" id="drogaria" name="drogaria">
-                            <label for="drogaria">Drogaria</label>
-                        </div>
-                        <div>
-                            <input type="radio" id="fornecedor" name="fornecedor">
-                            <label for="fornecedor">Fornecedor</label>
-                        </div>
-                        <div>
-                            <input type="radio" id="vagas" name="vagas">
-                            <label for="vagas">Vagas de Emprego</label>
-                        </div>
-                <label for="message">Mensagem:</label><br>
-                    <textarea type="textarea" id="message" name="message" rows="4" cols="50"></textarea><br>
-                <label for="checkbox" >Esta mensagem é sobre um orçamento</label>
-                    <input type="checkbox" id="budget" name="budget">
-            </form>
-        </section>
+        <div class="main-part">
+            <div class="part-1">
+                <h1>Entre em contato</h1><br>
+                    <h2>Para entrar em contato sobre parcerias, pesquisas ou representação comercial,</h2><br>
+                    <p>Nós vamos adorar responder suas dúvidas e ouvir suas críticas e sugestões.</p>
+            </div>
+            <div class="part-2">
+                <section class="container">
+                    <form id="formulario">
+                        <label for="fname">Nome:</label><br>
+                            <input class="name" type="text" id="fname" name="fname" placeholder="Insira seu nome"><br>
+                        <label for="phone">Telefone:</label><br>
+                            <input class="tel" type="tel" id="phone" name="phone" required placeholder="Insira seu telefone"><br>
+                        <label for="email">E-mail:</label><br>
+                            <input class="email" type="email" id="email" name="email" required placeholder="Insira seu e-mail"><br>
+                            <legend>Selecione o assunto da sua mensagem:</legend>
+                                <div>
+                                    <input type="radio" id="manipulacao" name="manipulacao">
+                                    <label for="manipulacao">Manipulação</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="drogaria" name="drogaria">
+                                    <label for="drogaria">Drogaria</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="fornecedor" name="fornecedor">
+                                    <label for="fornecedor">Fornecedor</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="vagas" name="vagas">
+                                    <label for="vagas">Vagas de Emprego</label>
+                                </div>
+                        <label for="message">Mensagem:</label><br>
+                            <textarea type="textarea" id="message" name="message" rows="4" cols="50" placeholder="Insira sua mensagem"></textarea><br>
+                        <label for="checkbox" >Esta mensagem é sobre um orçamento</label>
+                            <input type="checkbox" id="budget" name="budget"><br>
+                            <button type="submit" value="submit">Enviar!</button>
+                            
+                    </form>
+                </section>
+            </div>
+        </div>
     </main>
 
     <footer>

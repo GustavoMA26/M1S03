@@ -14,7 +14,7 @@
 .header-logo{
     width: fit-content;
     height: 100%;
-    padding-left: 60px; 
+    padding-left: 100px; 
     display: flex;
 }
 
@@ -30,7 +30,7 @@ a {
 .header-main nav ul {
     list-style: none;
     letter-spacing: 1px;
-    padding-right: 60px;
+    padding-right: 100px;
 
 }
 
@@ -56,14 +56,13 @@ a {
 
 }
 
-/* Main content */
+/* Index - Main content */
 main {
-    padding: 40px 60px;   
+    padding: 40px 100px;   
 }
 
 .cards {
-    padding: 10px 20px 10px 20px;
-    margin: 0 10px 0 10px;
+    padding: 10px 0px 10px 0px;
     max-width: 100%;
     justify-content: space-around;
     align-items:center;
@@ -117,6 +116,93 @@ i {
     cursor: pointer;
 }
 
+/* Contact - Main content */
+
+.main-part {
+    width:100%;
+    display:flex;
+}
+
+.part-1 {
+    width: 50%;
+    position:relative;
+    /* display:flex; */
+    flex-flow: row wrap;
+    justify-content: center;
+    vertical-align: middle;
+    padding: 40px 40px 40px 0px;
+    margin-top:150px;
+}
+
+.part-2 {
+    width: 50%;
+    position: relative;
+    display: flex;
+    padding:40px; 
+}
+
+.container {
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    padding: 30px;
+    width: 100%;
+    color:black;
+    
+}
+
+button[type=submit]{
+    background-color: #ff8a25;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor:pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button[type=submit]:hover {
+    background-color: #ff7700;   
+}
+
+input[type=text],textarea{
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin-top: 10px;
+}
+
+.name, .tel, .email {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin-bottom: 10px;
+}
+
+/* .container {
+    width:100%;
+    height: 100%;
+    background: #f2f2f2;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#formulario {
+    width: 300px;
+    background:yellow;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    margin: 0px;
+} */
 /*
 
 .header-nav {
