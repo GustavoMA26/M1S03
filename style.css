@@ -105,7 +105,7 @@ main {
 
 .icon-action {
     position: absolute;
-    margin: 20px 20px 0px 20px;
+    margin: 20px 0px 0px 200px;
 }
 
 .card img {
@@ -182,43 +182,4 @@ input[type=text],textarea{
     box-sizing: border-box;
     resize: vertical;
     margin-bottom: 10px;
-}
-
-/* .container {
-    width:100%;
-    height: 100%;
-    background: #f2f2f2;
-    justify-content: center;
-    align-items: center;
-}
-
-
-#formulario {
-    width: 300px;
-    background:yellow;
-    justify-content: center;
-    align-items: center;
-}
-
-.body {
-    margin: 0px;
-} */
-/*
-
-.header-nav {
-    background-color: #344bf0;
-    overflow: hidden;
-    text-align: left;
-    position: fixed;
-    top: 0;
-    width: 100%;
-        display: flex;
-}
-
-.header-nav {
-    float: right; /*Put the menu on the right side of the page */
-    /* text-align:center;
-    color:white;
-    padding: 14px 66px;
-    display: block;
 }
