@@ -1,0 +1,37 @@
+/* GLOBAL */
+* { font-family: 'Poppins', sans-serif;
+}
+
+/* Gerais */
+.row {
+    margin:0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+/* Barra de Navegação */
+@media (max-width: 480px) {
+    #nav-container {
+        padding: 0px 50px;
+    }
+    #navbar-links {
+        text-align:left;
+    }
+}
+
+header, .navbar {
+    background-color: #f7f5f5;
+    padding: 0px 100px;
+}
+
+#navbar-links a:hover {
+    text-decoration:underline;
+    color: #ff8a25;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
