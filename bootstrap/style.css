@@ -22,6 +22,9 @@
     .contato {
         padding: 20px;
     }
+    .container {
+        padding: 20px 0;
+    }
 
 }
 
@@ -172,4 +175,12 @@ body {
 
 #social-icons {
     padding-top: 20px;
+}
+
+/* Página Início */
+
+.index-title {
+    padding: 50px 0px 0px 0px;
+    letter-spacing: 1px;
+    margin: 0px 20px;
 }
