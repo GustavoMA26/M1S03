@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | FarmaDEV Medicamentos</title>
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <!-- <script src="https://kit.fontawesome.com/85827dd052.js" crossorigin="anonymous"></script> -->
+
+    <!--Bootstrap Scripts-->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!--NAVBAR BS-->
+      <header>
+        <nav class="navbar navbar-expand-lg fixed-top" id="nav-container">    
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="/images/logo_FarmaDEV.svg" alt="Logo FarmDev" width="75" height="60">
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>  
+          <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+            <div class="navbar-nav">
+              <a class="nav-link" href="#">SALDÃO FarmaDev</a>
+              <a class="nav-link" href="/bootstrap/index.html">Todos os Medicamentos</a>
+              <a class="nav-link" href="#">Sobre Nós</a>
+              <a class="nav-link active" aria-current="page" href="#">Contato</a>
+            </div>
+          </div>
+        </nav>
+      </header>
+<!--Chamada Formulário-->
+<div class="container contato">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+                <h1 class="main-title">Entre em contato!</h1>
+                <p>Nós vamos adorar responder suas dúvidas e ouvir suas críticas e sugestões.</p>
+        </div>
+<!-- Formulário -->
+        <div class="col-md-6 form-contato">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nome:</label>
+                <input type="name" class="form-control" id="fname" required placeholder="Insira seu nome">
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Telefone:</label>
+                <input type="tel" class="form-control" id="phone" required placeholder="Insira seu telefone">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email" required placeholder="Insira seu e-mail aqui">
+            </div>
+            <div class="mb-3">
+                <select class="form-select" aria-label="assunto" required>
+                    <option selected>Selecione o assunto:</option>
+                    <option value="1">Manipulação</option>
+                    <option value="2">Drogaria</option>
+                    <option value="3">Fornecedor</option>
+                    <option value="4">Vagas de Emprego</option>
+                </select>
+            </div>
+            <div class="form-floating mb-3">
+                <textarea class="form-control" placeholder="Insira sua mensagem" id="mensagem"></textarea>
+                <label for="mensagem">Escreva sua mensagem:</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="budget" id="budget">
+                <label class="form-check-label" for="orcamento">Esta mensagem é sobre um orçamento</label>
+            </div>
+            <button type="submit" class="btn">Enviar!</button>
+        </div>
+    </div>
+</div>
+  <!-- <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div> -->

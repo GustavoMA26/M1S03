@@ -19,6 +19,10 @@
     #navbar-links {
         text-align:left;
     }
+    .contato {
+        padding: 20px;
+    }
+
 }
 
 header, .navbar {
@@ -93,3 +97,30 @@ body {
     color: #e6e5e5;
     cursor:pointer;
 }
+
+/* Formulário */
+
+.form-contato {
+    background-color: #f2f2f2;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.btn {
+    padding: 10px;
+    background-color:#344bf0;
+    border-color:#344bf0;
+    color: white;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.btn:hover {
+    background-color:#ff8a25;
+}
+
+#mensagem {
+    height: 100px;
+}
+
