@@ -142,3 +142,34 @@ body {
 .embed-responsive {
     margin-bottom:-10px;
 }
+
+
+/* Sobre */
+
+.about-title {
+    margin: 0 0 65px 0;
+    text-align: center;
+    
+}
+
+#about-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li {
+    line-height: 30px;
+}
+
+#about-list li i {
+    color:#344bf0;
+    margin-right: 10px;
+}
+
+#about-area {
+    padding:20px;
+}
+
+#social-icons {
+    padding-top: 20px;
+}
