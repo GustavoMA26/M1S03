@@ -124,3 +124,21 @@ body {
     height: 100px;
 }
 
+/* Footer */
+
+#copy-area {
+    background-color:#f2f2f2
+}
+
+#copy-area .container {
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-area .container p{
+    margin: 0;
+}
+
+.embed-responsive {
+    margin-bottom:-10px;
+}
